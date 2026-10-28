@@ -223,11 +223,13 @@ FEATURES
 
 .books {
   display: flex;
+  flex-wrap: wrap;
 }
 
 .book {
   width: 25%;
   padding: 24px;
+  box-sizing: border-box;
 }
 
 .book__img {
@@ -266,4 +268,14 @@ transform: scale(1.03);
   text-decoration: line-through;
   padding-right: 6px;
   color: #bfbfbf;
+}
+
+/*
+
+LATEST
+
+*/
+
+#recent {
+  padding-top: 8vw;
 }
