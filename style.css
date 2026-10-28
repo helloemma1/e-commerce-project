@@ -279,3 +279,19 @@ LATEST
 #recent {
   padding-top: 8vw;
 }
+
+/*
+
+EXPLORE
+
+*/
+
+#explore {
+  padding-top: 1vw;
+  background-color: rgba(115, 66, 214, 0.1);
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+}
+
